@@ -1,0 +1,29 @@
+
+
+.trigger-header h1 {
+    color: rgb(35 35 99);
+}
+
+.trigger-inner{
+    
+    display: inline-block;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+
+}
+
+.trigger-title {   
+    background-color: rgb(35 35 99);
+    padding-left: 6%;
+    padding-top: 1%;
+    height: 50px;
+   
+}
+
+.trigger-title h3 {
+
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+}

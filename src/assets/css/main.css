@@ -1,0 +1,27 @@
+body {
+    font-family: 'Montserrat';font-size: 15px;
+    height: 100vh;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: rgb(35 35 99);;
+    border-width: 5px;
+    margin: 0;
+}
+
+
+#app {
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    
+}
+
+.aqua-color{
+    color: #63ceaa;
+}
+
+.bold{
+    font-weight: bold;
+}

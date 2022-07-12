@@ -1,26 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+ <TriggersController_main/>
+ 
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import TriggersController_main from './components/triggers_controller/TriggersController_main.vue';
+
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components: {   
+    TriggersController_main
+    
   }
 }
 </script>
+<style src="./assets/css/main.css"></style>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+
